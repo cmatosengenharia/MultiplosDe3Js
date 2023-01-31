@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            h1{
+                background: blue;
+                color: aliceblue;
+            }
+            .container{
+                text-align: center;
+            }
+            button{
+                background: blue;
+                color: aliceblue;
+                font-size: medium;
+                padding: 2px 30px;
+                border: 0;
+                cursor: pointer;
+            }
+            h3{
+                background: blue;
+                color: aliceblue;
+            }
+        </style>
+        <title>
+            Programa JS
+        </title>     
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                Programa realiza a soma de todos os multiplos de 3 ou 5 menores que o número informado!
+            </h1>
+            <h3>Digite um número:</h3>
+            <input id="numeroInformado" type="text"/>
+            <button onclick="calcularSoma()">Calcular</button>
+            <h3>Resultado:</h3>
+            <input disabled id="resultadoDaSoma" type="text"/>
+        </div>
+        <script src="multiplos.js"></script>       
+    </body>    
+</html>
