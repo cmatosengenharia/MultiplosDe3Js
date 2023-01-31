@@ -1,19 +1,22 @@
 h1{
-    background: blue;
-    color: aliceblue;
+    color: black;
+    text-align: center;
 }
 .container{
     text-align: center;
 }
+input{
+    text-align: center;
+}
 button{
-    background: blue;
-    color: aliceblue;
+    text-align: center;
+    color: black;
     font-size: medium;
     padding: 2px 30px;
     border: 0;
     cursor: pointer;
 }
 h3{
-    background: blue;
-    color: aliceblue;
+    text-align: center;
+    color: black;
 }
