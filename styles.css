@@ -1,0 +1,19 @@
+h1{
+    background: blue;
+    color: aliceblue;
+}
+.container{
+    text-align: center;
+}
+button{
+    background: blue;
+    color: aliceblue;
+    font-size: medium;
+    padding: 2px 30px;
+    border: 0;
+    cursor: pointer;
+}
+h3{
+    background: blue;
+    color: aliceblue;
+}
